@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="public/img/logos/donetsk_logo.png" alt="Donetsk banner">
+    <img src="src/assets/img/logos/banner.png" alt="Donetsk banner">
     <hr />
 </div>
 
@@ -17,8 +17,8 @@
 
 
 ## Installation
-This project utilizes [pnpm](https://pnpm.io). No other package manager is supported for this project.
-To install dependencies for this project, open a command line interface at the directory of the cloned repository, and run:
+This project utilizes [pnpm](https://pnpm.io) for installing packages.
+To install the necessary packages for this project, open a command line interface at the directory of the cloned repository, and run:
 ```sh
 pnpm install
 ```
