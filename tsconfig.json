@@ -1,16 +1,15 @@
 {
+  "extends": "@tsconfig/svelte/tsconfig.json",
   "compilerOptions": {
     "target": "ES2022",
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
-    "module": "CommonJS",
-    "moduleResolution": "node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "outDir": "./dist",
-    "allowJs": true,
-    "esModuleInterop": true,
+    "newLine": "lf",
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
-    "strictNullChecks": true,
-    "strict": true
+    "verbatimModuleSyntax": false
   },
   "exclude": ["node_modules"]
 }

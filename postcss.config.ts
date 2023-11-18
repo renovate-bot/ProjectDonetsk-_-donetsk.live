@@ -1,8 +1,18 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
+const postcssImport = require(`postcss-import`);
+const postcssPresetEnv = require(`postcss-preset-env`);
+const tailwindcss = require(`tailwindcss`);
+
 export default {
     plugins: [
-        `postcss-preset-env`,
-        require(`tailwindcss`),
-        require(`autoprefixer`),
-        require(`postcss-import`)
+        postcssImport,
+        tailwindcss,
+        postcssPresetEnv({
+            features: {
+                [`nesting-rules`]: {
+                    noIsPseudoSelector: false
+                }
+            }
+        })
     ]
 };
