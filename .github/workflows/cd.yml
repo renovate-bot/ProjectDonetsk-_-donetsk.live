@@ -30,7 +30,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: pnpm build:client
+        run: pnpm build
 
       - name: Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
