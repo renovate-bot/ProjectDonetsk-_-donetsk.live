@@ -1,0 +1,44 @@
+@import "../palette.scss";
+
+.btn-darken {
+    color: inherit;
+    transition: filter 0.25s ease;
+}
+
+.link-darken:hover,
+.btn-darken:hover
+ {
+    filter: brightness(80%) !important;
+}
+
+.btn-darken:active {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    border-color: #000000 !important;
+    filter: none !important;
+}
+
+.btn-orange {
+    background-color: $orange !important;
+    border-color: $orange !important;
+}
+
+.btn-twitter {
+    background-color: $twitter !important;
+    border-color: $twitter !important;
+}
+
+.btn-discord {
+    background-color: $discord !important;
+    border-color: $discord !important;
+}
+
+.btn-youtube {
+    background-color: $youtube !important;
+    border-color: $youtube !important;
+}
+
+.btn-github {
+    background-color: $github !important;
+    border-color: $github !important;
+}
