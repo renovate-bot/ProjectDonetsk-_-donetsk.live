@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Saos from 'saos';
 
     import Discord from '../assets/img/socials/discord.svg';
@@ -11,7 +11,7 @@
         `Black Ops Cold War`,
         `Warzone`
     ];
-    
+
     let textIndex = 0;
     setInterval(() => {
         textIndex++;

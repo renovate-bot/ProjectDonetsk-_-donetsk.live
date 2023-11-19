@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "composite": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "strict": true
+  },
+  "include": [
+    "vite.config.ts",
+    "vite/*.ts",
+    "svelte.config.js",
+    "postcss.config.js",
+    "tailwind.config.ts"
+  ]
+}

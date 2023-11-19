@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
     import { Router, Route } from 'svelte-routing';
 
     import Home from './pages/Home.svelte';
-    import Error404 from './pages/404';
+    import Error404 from './pages/404.svelte';
 
     import 'bootstrap';
 
