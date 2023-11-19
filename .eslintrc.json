@@ -6,9 +6,7 @@
     "extends": [
         "plugin:svelte/recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:import/recommended",
         "plugin:import/typescript",
-        "plugin:node/recommended",
         "eslint:recommended",
         "standard-with-typescript"
     ],
@@ -24,9 +22,7 @@
     },
     "plugins": [
         "@typescript-eslint",
-        "svelte",
-        "import",
-        "node"
+        "svelte"
     ],
     "overrides": [
         {

@@ -20,7 +20,6 @@
 </script>
 
 <main>
-    <!-- svelte-ignore a11y-media-has-caption -->
     <video autoplay muted loop>
         <source src="/assets/video/background.mp4" type="video/mp4">
     </video>
@@ -49,7 +48,7 @@
                     <i class="icofont icofont-money-bag"></i>
                     Donate
                 </a>
-                <a href="https://support.donetsk.live" target="_blank" rel="noreferrer noopoener" class="btn btn-lg btn-danger tw-mb-3">
+                <a href="https://support.donetsk.live" target="_blank" rel="noreferrer noopoener" class="btn btn-lg btn-darken btn-red tw-mb-3">
                     <i class="icofont icofont-ui-chat"></i>
                     Forum
                 </a>
@@ -58,14 +57,21 @@
                     GitHub
                 </a>
                 <a href="https://discord.donetsk.live" target="_blank" rel="noreferrer noopoener" class="btn btn-lg btn-darken btn-discord">
-                    <img src={Discord} alt="Discord icon" class="icon">
+                    <i class="icofont icofont-discord"></i>
                     Discord
                 </a>
             </div>
         </Saos>
         <br>
         <Saos animation="slide-in-blurred-top 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) both">
-            <p class="splash-footer tw-text-[#aaaaaa]">Coming Soon!</p>
+            <p class="splash-footer tw-text-[#aaaaaa]">
+                &copy; Donetsk 2023.
+                <br>
+                <br>
+                Portions of Project Donetsk are trademarks and/or copyrighted works of Microsoft, Inc.
+                <br>
+                All rights reserved by Microsoft, Inc. This material is not official and is not endorsed by Microsoft, Inc. 
+            </p>
         </Saos>
     </div>
 </main>
@@ -118,6 +124,7 @@
             height: 24px;
             width: 24px;
         }
+
         span {
             font-weight: bold;
             font-size: 1.25rem;

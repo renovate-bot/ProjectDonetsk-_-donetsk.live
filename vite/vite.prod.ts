@@ -11,7 +11,9 @@ const config: UserConfig = {
         manifest: `manifest.json`,
         rollupOptions: {
             output: {
-                entryFileNames: `assets/[name].js`
+                entryFileNames: `assets/lib/[hash].js`,
+                assetFileNames: `assets/lib/[hash][extname]`,
+                chunkFileNames: `assets/lib/[hash].js`
             }
         }
     },
