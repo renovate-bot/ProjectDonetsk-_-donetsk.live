@@ -30,7 +30,7 @@
         </Saos>
 
         <Saos animation="slide-in-blurred-top 0.7s cubic-bezier(0.230, 1.000, 0.320, 1.000) both">
-            <h1 class="tw-font-extrabold tw-mb-2">Project Donetsk</h1>
+            <h1 class="tw-font-extrabold tw-mb-2">Donetsk</h1>
         </Saos>
 
         <Saos animation="slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both">
@@ -68,7 +68,7 @@
                 &copy; Donetsk 2023.
                 <br>
                 <br>
-                Portions of Project Donetsk are trademarks and/or copyrighted works of Microsoft, Inc.
+                Portions of Donetsk are trademarks and/or copyrighted works of Microsoft, Inc.
                 <br>
                 All rights reserved by Microsoft, Inc. This material is not official and is not endorsed by Microsoft, Inc. 
             </p>
